@@ -1,6 +1,6 @@
 ---
-title: Markdown Presentation Example
-author: Christopher Wellons
+title: "OAuth: the spec, the dance, and drupal"
+author: Chris Christensen
 layout: default
 ---
 

@@ -1,3 +1,7 @@
 pygments: true
 safe: true
-exclude: [introduction, test, README.md, UNLICENSE]
+markdown: rdiscount
+server: true
+server_port: 3000
+auto: true
+exclude: [README.md, makefile, talk.md]
