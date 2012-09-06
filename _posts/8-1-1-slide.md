@@ -1,4 +1,3 @@
-----
 
 ## What OAuth looks like
 

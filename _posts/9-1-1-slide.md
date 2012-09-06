@@ -1,4 +1,3 @@
-----
 
 ## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
 

@@ -1,4 +1,3 @@
-----
 
 ## So what's so special about OAuth?
 
