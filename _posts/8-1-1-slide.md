@@ -1,7 +1,19 @@
 
-## What OAuth looks like
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
 
-![Facebook](http://f.cl.ly/items/1d2i1g2R3S2L3b2b2X3O/20120906001549.png)
-![Twitter](http://f.cl.ly/items/031j2u1K1b2P1i1e3u1G/20120906001612.png)
-![AllPlayers](http://f.cl.ly/items/2A2F3P2I1D3p0T2E390d/20120906001808.png)
+![faji: photo gallery site](http://hueniverse.com/wp-content/uploads/2009/09/screen1.png)
+
+![beppa: photo printing site](http://hueniverse.com/wp-content/uploads/2009/09/screen2.png)
+
+![Access faji from beppa's site](http://hueniverse.com/wp-content/uploads/2009/12/flow2grfc.png)
+
+![Redirection to get access on faji](http://hueniverse.com/wp-content/uploads/2009/09/screen3.png)
+
+![Approve/Authorize faji to give tokens to beppa to access as you](http://hueniverse.com/wp-content/uploads/2009/09/screen4.png)
+
+![Redirect to Beppa](http://hueniverse.com/wp-content/uploads/2009/09/screen5.png)
+
+![Ask again using temp tokens and get real live access tokens](http://hueniverse.com/wp-content/uploads/2009/12/flow3grfc.png)
+
+![Request from the API with real live access tokens](http://hueniverse.com/wp-content/uploads/2009/09/screen6.png)
 

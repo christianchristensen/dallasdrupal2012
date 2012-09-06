@@ -1,11 +1,3 @@
-## OAuth: the spec, the dance, and drupal
-
-Original notes
-
-*  https://gist.github.com/1595718
-
-----
-
 ## Teh Web: HTTP/1.0
 
 
@@ -39,7 +31,7 @@ Example with cookies holding state through a session:
    *  Scope access to resources
 
 Example of a signed OAuth request:
-   
+
     <special signing sauce>
     curl -vvv -H 'Authorization: OAuth
      oauth_consumer_key="zsQpwbL3AGRNV4272Xc8Msi3hxhQWGrS",
@@ -50,6 +42,7 @@ Example of a signed OAuth request:
      oauth_token="wvokahqtGMLS5o4AvVvokGZaA9pZjBcW",
      oauth_signature="tvHRw2fLNxYE2FR62EfH6tAfBW4%3D"'
     https://www.example.com/special
+
 
 ----
 
@@ -115,13 +108,17 @@ But, dont throw the baby out with the bathwater and his commentary is directed a
 
 ----
 
-## Technical pieces: 
+## Technical pieces
 
 
 ----
 
 ## Refs
 
+*  http://tools.ietf.org/html/rfc1945#section-10.16 / http://en.wikipedia.org/wiki/Basic_access_authentication
+*  http://tools.ietf.org/html/rfc6265 / http://en.wikipedia.org/wiki/HTTP_cookie
+*  http://tools.ietf.org/html/rfc5849 / http://en.wikipedia.org/wiki/OAuth
 *  [Terminology](http://tools.ietf.org/html/rfc5849#section-1.1)
 *  [OAuth Checklist](http://oauthchecklist.org/)
+*  [Build out and scratch pad notes](https://gist.github.com/1595718)
 

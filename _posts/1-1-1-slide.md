@@ -1,6 +1,4 @@
-## OAuth: the spec, the dance, and drupal
+## Teh Web: HTTP/1.0
 
-Original notes
 
-*  https://gist.github.com/1595718
 

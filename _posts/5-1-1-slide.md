@@ -1,11 +1,9 @@
 
-## So what's so special about OAuth?
+# Halt!
 
-*  Each **client** is assigned **credentials** granted by a **resource owner** to access a **protected resource** on a **server**
-   *  Note: Client <-- (stuff) --> Server
-   *  Therefore the credentials granted to a *specific client* can be *managed/revoked* by the resource owner.
-*  An endpoint(s)/HTTP resource(s) can be **scoped** (to limit its functionality)
-   *  "I give you (Ms. client) access to my API, but read only."
-   *  "Access all of my public data (Mr. client)"
-   *  "(Mrs. Client) Is requesting access you your bank account, allow?"
+What about that guy ([Eran Hammer](http://hueniverse.com/oauth/)) on the internet that was like "OAuth 2.0 sucks" **!!rage quit!!** ?!!
+
+Agree or disgree … most importantly: he's an expert and is prosthelytizing great information - **Listen to him!** (and read carefully)
+
+But, dont throw the baby out with the bathwater and his commentary is directed at the 2.0 *draft*
 

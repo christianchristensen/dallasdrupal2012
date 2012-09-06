@@ -1,5 +1,7 @@
 
-# Let's Dance
+## What OAuth looks like
 
-![Footloose dance](http://f.cl.ly/items/2f1T0o283F2T1B1a3V0Y/footlose1_i270x270.jpg)
+![Facebook](http://f.cl.ly/items/1d2i1g2R3S2L3b2b2X3O/20120906001549.png)
+![Twitter](http://f.cl.ly/items/031j2u1K1b2P1i1e3u1G/20120906001612.png)
+![AllPlayers](http://f.cl.ly/items/2A2F3P2I1D3p0T2E390d/20120906001808.png)
 
