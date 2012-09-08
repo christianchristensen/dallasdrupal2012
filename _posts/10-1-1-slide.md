@@ -1,7 +1,7 @@
 
-## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
+## What OAuth looks like
 
-![faji: photo gallery site](http://hueniverse.com/wp-content/uploads/2009/09/screen1.png)
-
-![beppa: photo printing site](http://hueniverse.com/wp-content/uploads/2009/09/screen2.png)
+![Facebook](http://f.cl.ly/items/1d2i1g2R3S2L3b2b2X3O/20120906001549.png)
+![Twitter](http://f.cl.ly/items/031j2u1K1b2P1i1e3u1G/20120906001612.png)
+![AllPlayers](http://f.cl.ly/items/2A2F3P2I1D3p0T2E390d/20120906001808.png)
 

@@ -1,5 +1,9 @@
 
-# Let's Dance
+# Halt!
 
-![Footloose dance](http://f.cl.ly/items/2f1T0o283F2T1B1a3V0Y/footlose1_i270x270.jpg)
+What about that guy on the internet ([Eran Hammer](http://hueniverse.com/oauth/)) that was like "OAuth 2.0 sucks" **!!rage quit!!** ?!!
+
+Agree or disgree … most importantly: he's an expert and is prosthelytizing great information - **Listen to him!** (and read carefully)
+
+**The takeaway:** dont throw the baby out with the bathwater and his commentary is directed at the 2.0 *draft*
 

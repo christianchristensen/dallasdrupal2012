@@ -1,12 +1,12 @@
 
 ## Auth experience
 
-*  Session Auth (cookies) [IETF RFC 6265](http://tools.ietf.org/html/rfc6265)
-   *  "free" with most web frameworks
-   *  A session is usually tied to one user account and is normally authorized fully or not.
+*  [HTTP Basic Auth](http://en.wikipedia.org/wiki/Basic_access_authentication) - [IETF RFC 1945](http://tools.ietf.org/html/rfc1945#section-10.16)
+   *  Simple!
+   *  Plaintext (SSL can "help")
+   *  Relys on client/browser authentication popup
 
-Example with cookies holding state through a session:
+Example with Basic Auth:
 
-    curl -c cookiejar.txt https://www.example.com/login
-    curl -b cookiejar.txt https://www.example.com/special
+    curl -u "username:password" https://www.example.com/special
 

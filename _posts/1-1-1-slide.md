@@ -1,6 +1,6 @@
-## The Web: HTTP/1.0
+## Chris Christensen
 
-*  Client <-- --> Server
-*  GET, PUT, POST, DELETE, HEAD, ...
-*  Headers
+### [@imetchrischris](http://twitter.com/imetchrischris)
+### [AllPlayers.com](https://www.allplayers.com/)
+
 

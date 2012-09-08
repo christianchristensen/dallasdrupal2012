@@ -1,3 +1,11 @@
+## Chris Christensen
+
+### [@imetchrischris](http://twitter.com/imetchrischris)
+### [AllPlayers.com](https://www.allplayers.com/)
+
+
+----
+
 ## The Web: HTTP/1.0
 
 *  Client <-- --> Server

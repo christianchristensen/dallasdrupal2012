@@ -1,24 +1,7 @@
 
-## Technical pieces
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
 
-### [Terminology](http://tools.ietf.org/html/rfc5849#section-1.1)
+![Ask again using temp tokens and get real live access tokens](http://hueniverse.com/wp-content/uploads/2009/12/flow3grfc.png)
 
-*  Consumer:  client
-*  Service Provider:  server
-*  User:  resource owner
-*  Consumer Key and Secret:  client credentials
-*  Request Token and Secret:  temporary credentials
-*  Access Token and Secret:  token credentials
-
-
-### URL pattern(s)
-
-(Related to protocol workflow)
-
-*  https://provider.example.net/{initiate,request_token} (Temporary Credential Request)
-*  https://provider.example.net/authorize (Resource Owner Authorization URI)
-*  https://provider.example.net/{token,access_token} (Token Request UR)
-*  http://consumer.example.com/{oauth_redirect,ready,...}
-
-(Ref: URL patterns for [Twitter](https://dev.twitter.com/), [AllPlayers.com](http://develop.allplayers.com/oauth.html))
+![Request from the API with real live access tokens](http://hueniverse.com/wp-content/uploads/2009/09/screen6.png)
 
