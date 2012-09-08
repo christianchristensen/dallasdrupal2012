@@ -8,7 +8,7 @@
 Example of a signed OAuth request:
 
     <special signing sauce>
-    curl -vvv -H 'Authorization: OAuth
+    curl -v -H 'Authorization: OAuth
      oauth_consumer_key="zsQpwbL3AGRNV4272Xc8Msi3hxhQWGrS",
      oauth_signature_method="HMAC-SHA1",
      oauth_timestamp="1346887460",
