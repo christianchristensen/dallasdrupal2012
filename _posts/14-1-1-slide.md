@@ -20,5 +20,5 @@
 *  https://provider.example.net/{token,access_token} (Token Request UR)
 *  http://consumer.example.com/{oauth_redirect,ready,...}
 
-(Ref: URL patterns for Twitter, AP, etc..)
+(Ref: URL patterns for [Twitter](https://dev.twitter.com/), [AllPlayers.com](http://develop.allplayers.com/oauth.html))
 

@@ -5,12 +5,19 @@
 * Your presentation will be under `_site`, with
   [deck.js](http://imakewebthings.com/deck.js/) included.
 
+### Notes
+
+## Snippets:
+
+http://www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx
+User: httpwatch
+
+`curl -c cjar -v -d "name=username&pass=password&form_build_id=form-VzawggRmOKly2ZnxAfb51mRRWlH6hVf__xwCw67msjU&form_id=user_login&op=Log in" http://drupal.example.com/user`
+
+http://term.ie/oauth/example/client.php
+
+
 ### TODO
 
 *  Replace (or plugify?) deck.js and reveal.js
-*  live examples of curl basic, session, and oauth (oauth signing tool - PHP app?))
-*  HTTP examples: demo browser and how to "see" these things
-*  move "what oauth looks like to front?
-*  Use public/private key hashing video to demonstrate what is going on here...
-*  Fill in URL patterns on technical slide to docs on twitter, fb, goog, AP,...
 

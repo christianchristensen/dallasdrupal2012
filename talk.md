@@ -149,7 +149,7 @@ Agree or disgree … most importantly: he's an expert and is prosthelytizing gre
 *  https://provider.example.net/{token,access_token} (Token Request UR)
 *  http://consumer.example.com/{oauth_redirect,ready,...}
 
-(Ref: URL patterns for Twitter, AP, etc..)
+(Ref: URL patterns for [Twitter](https://dev.twitter.com/), [AllPlayers.com](http://develop.allplayers.com/oauth.html))
 
 ----
 
@@ -165,4 +165,5 @@ Agree or disgree … most importantly: he's an expert and is prosthelytizing gre
 *  http://tools.ietf.org/html/rfc5849 / http://en.wikipedia.org/wiki/OAuth
 *  [OAuth Checklist](http://oauthchecklist.org/)
 *  [Build out and scratch pad notes](https://gist.github.com/1595718)
+*  [Public Key Cryptography: Diffie-Hellman Key Exchange](http://www.youtube.com/watch?v=3QnD2c4Xovk&feature=related)
 
