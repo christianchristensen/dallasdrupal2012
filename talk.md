@@ -1,10 +1,12 @@
-## Teh Web: HTTP/1.0
+## The Web: HTTP/1.0
 
-
+*  Client <-- --> Server
+*  GET, PUT, POST, DELETE, HEAD, ...
+*  Headers
 
 ----
 
-## current auth "experience"
+## Auth experience
 
 *  [HTTP Basic Auth](http://en.wikipedia.org/wiki/Basic_access_authentication) - [IETF RFC 1945](http://tools.ietf.org/html/rfc1945#section-10.16)
    *  Simple!
@@ -15,6 +17,9 @@ Example with Basic Auth:
 
     curl -u "username:password" https://www.example.com/special
 
+----
+
+## Auth experience
 
 *  Session Auth (cookies) [IETF RFC 6265](http://tools.ietf.org/html/rfc6265)
    *  "free" with most web frameworks
@@ -25,6 +30,9 @@ Example with cookies holding state through a session:
     curl -c cookiejar.txt https://www.example.com/login
     curl -b cookiejar.txt https://www.example.com/special
 
+----
+
+## Auth experience
 
 *  OAuth [IETF RFC 5849](http://tools.ietf.org/html/rfc5849)
    *  "Valet key for the web" (limited access OAuth Token)
@@ -33,7 +41,7 @@ Example with cookies holding state through a session:
 Example of a signed OAuth request:
 
     <special signing sauce>
-    curl -vvv -H 'Authorization: OAuth
+    curl -v -H 'Authorization: OAuth
      oauth_consumer_key="zsQpwbL3AGRNV4272Xc8Msi3hxhQWGrS",
      oauth_signature_method="HMAC-SHA1",
      oauth_timestamp="1346887460",
@@ -94,13 +102,25 @@ But, dont throw the baby out with the bathwater and his commentary is directed a
 
 ![beppa: photo printing site](http://hueniverse.com/wp-content/uploads/2009/09/screen2.png)
 
+----
+
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
+
 ![Access faji from beppa's site](http://hueniverse.com/wp-content/uploads/2009/12/flow2grfc.png)
 
 ![Redirection to get access on faji](http://hueniverse.com/wp-content/uploads/2009/09/screen3.png)
 
+----
+
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
+
 ![Approve/Authorize faji to give tokens to beppa to access as you](http://hueniverse.com/wp-content/uploads/2009/09/screen4.png)
 
 ![Redirect to Beppa](http://hueniverse.com/wp-content/uploads/2009/09/screen5.png)
+
+----
+
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
 
 ![Ask again using temp tokens and get real live access tokens](http://hueniverse.com/wp-content/uploads/2009/12/flow3grfc.png)
 
@@ -110,6 +130,31 @@ But, dont throw the baby out with the bathwater and his commentary is directed a
 
 ## Technical pieces
 
+### [Terminology](http://tools.ietf.org/html/rfc5849#section-1.1)
+
+*  Consumer:  client
+*  Service Provider:  server
+*  User:  resource owner
+*  Consumer Key and Secret:  client credentials
+*  Request Token and Secret:  temporary credentials
+*  Access Token and Secret:  token credentials
+
+
+### URL pattern(s)
+
+(Related to protocol workflow)
+
+*  https://provider.example.net/{initiate,request_token} (Temporary Credential Request)
+*  https://provider.example.net/authorize (Resource Owner Authorization URI)
+*  https://provider.example.net/{token,access_token} (Token Request UR)
+*  http://consumer.example.com/{oauth_redirect,ready,...}
+
+(Ref: URL patterns for Twitter, AP, etc..)
+
+----
+
+# Demo Time
+
 
 ----
 
@@ -118,7 +163,6 @@ But, dont throw the baby out with the bathwater and his commentary is directed a
 *  http://tools.ietf.org/html/rfc1945#section-10.16 / http://en.wikipedia.org/wiki/Basic_access_authentication
 *  http://tools.ietf.org/html/rfc6265 / http://en.wikipedia.org/wiki/HTTP_cookie
 *  http://tools.ietf.org/html/rfc5849 / http://en.wikipedia.org/wiki/OAuth
-*  [Terminology](http://tools.ietf.org/html/rfc5849#section-1.1)
 *  [OAuth Checklist](http://oauthchecklist.org/)
 *  [Build out and scratch pad notes](https://gist.github.com/1595718)
 

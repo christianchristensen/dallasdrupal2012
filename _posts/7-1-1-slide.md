@@ -1,7 +1,9 @@
 
-## What OAuth looks like
+# Halt!
 
-![Facebook](http://f.cl.ly/items/1d2i1g2R3S2L3b2b2X3O/20120906001549.png)
-![Twitter](http://f.cl.ly/items/031j2u1K1b2P1i1e3u1G/20120906001612.png)
-![AllPlayers](http://f.cl.ly/items/2A2F3P2I1D3p0T2E390d/20120906001808.png)
+What about that guy ([Eran Hammer](http://hueniverse.com/oauth/)) on the internet that was like "OAuth 2.0 sucks" **!!rage quit!!** ?!!
+
+Agree or disgree … most importantly: he's an expert and is prosthelytizing great information - **Listen to him!** (and read carefully)
+
+But, dont throw the baby out with the bathwater and his commentary is directed at the 2.0 *draft*
 

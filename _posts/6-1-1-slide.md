@@ -1,5 +1,11 @@
 
-# Let's Dance
+## So what's so special about OAuth?
 
-![Footloose dance](http://f.cl.ly/items/2f1T0o283F2T1B1a3V0Y/footlose1_i270x270.jpg)
+*  Each **client** is assigned **credentials** granted by a **resource owner** to access a **protected resource** on a **server**
+   *  Note: Client <-- (stuff) --> Server
+   *  Therefore the credentials granted to a *specific client* can be *managed/revoked* by the resource owner.
+*  An endpoint(s)/HTTP resource(s) can be **scoped** (to limit its functionality)
+   *  "I give you (Ms. client) access to my API, but read only."
+   *  "Access all of my public data (Mr. client)"
+   *  "(Mrs. Client) Is requesting access you your bank account, allow?"
 

@@ -1,10 +1,7 @@
 
-## Refs
+## What OAuth looks like: [Protocol workflow](http://hueniverse.com/oauth/guide/workflow/)
 
-*  http://tools.ietf.org/html/rfc1945#section-10.16 / http://en.wikipedia.org/wiki/Basic_access_authentication
-*  http://tools.ietf.org/html/rfc6265 / http://en.wikipedia.org/wiki/HTTP_cookie
-*  http://tools.ietf.org/html/rfc5849 / http://en.wikipedia.org/wiki/OAuth
-*  [Terminology](http://tools.ietf.org/html/rfc5849#section-1.1)
-*  [OAuth Checklist](http://oauthchecklist.org/)
-*  [Build out and scratch pad notes](https://gist.github.com/1595718)
+![faji: photo gallery site](http://hueniverse.com/wp-content/uploads/2009/09/screen1.png)
+
+![beppa: photo printing site](http://hueniverse.com/wp-content/uploads/2009/09/screen2.png)
 
